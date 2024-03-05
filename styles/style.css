@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar section  */
+nav{
+    margin: 50px 100px;
+}
+
+.name{
+    font-size: 45px;
+}
+
+.name .firstLater{  
+    color: #FD6E0A;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gap{
+    gap: 50px;
+}
+
+nav button{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+}
