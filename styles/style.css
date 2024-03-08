@@ -1,55 +1,57 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
 
 /* navbar section  */
-header{
+header {
     background-color: #FFF8F3;
-    background-image: url("images/header_bg.png");
-    background-image: url('images/developer.png');
+    background-image: url('../images/dev.png'), url('../images/color.png');
     background-repeat: no-repeat;
+    background-position: left, right bottom;
 }
-nav{
+
+nav {
     padding: 50px 100px;
 }
 
-.name{
+.name {
     font-size: 45px;
 }
 
-.name .firstLater{  
+.name .firstLater {
     color: #FD6E0A;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.gap{
+
+.gap {
     gap: 50px;
 }
 
-.contact-btn{
+.contact-btn {
     background-color: #FFF8F3;
     border: 1px solid #FD6E0A;
 
 }
 
-.btn{
+.btn {
     background-color: #FD6E0A;
     border-radius: 5px;
     color: white;
@@ -58,7 +60,7 @@ nav ul li a{
     font-size: 20px;
 }
 
-#contact-btn{
+#contact-btn {
     background-color: #FFF8F3;
     border-radius: 5px;
     color: #FD6E0A;
@@ -67,27 +69,31 @@ nav ul li a{
     font-size: 20px;
 }
 
+/* Hero Section  */
 
-.section-margin{
-
-    margin: 0 100px;
+.hero {
+    margin: 0px 70px 0px 150px;
 }
 
-#intro h3{
+.section-margin {
+    margin: 0 150px;
+}
+
+#intro h3 {
     color: #474747;
     font-size: 45px;
 }
 
-#intro h1{
+#intro h1 {
     font-size: 85px;
 }
 
-#intro p{
+.paragraph {
     font-size: 18px;
     color: #757575;
 }
 
-
-
-
-
+/* About Section  */
+.section-title {
+    font-size: 35px;
+}
