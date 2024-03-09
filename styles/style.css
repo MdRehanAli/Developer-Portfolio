@@ -142,11 +142,16 @@ filter: drop-shadow(20px 20px 10px rgba(104, 104, 104, 0.267));
 
 
 /* Footer Section  */
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+}
+
 input{
-    width: 100%;
-    /* border: 1px solid red; */
+    display: block;
+    width: 98%;
 }
 fieldset{
-    width: 100%;
+    /* width: 100%; */
     border: 1px solid red;
 }
