@@ -139,3 +139,14 @@ filter: drop-shadow(20px 20px 10px rgba(104, 104, 104, 0.267));
     display: flex;
     justify-content: center;
 }
+
+
+/* Footer Section  */
+input{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+fieldset{
+    width: 100%;
+    border: 1px solid red;
+}
