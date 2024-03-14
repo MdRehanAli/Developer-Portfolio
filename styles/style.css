@@ -159,6 +159,19 @@ fieldset{
     border: 1px solid red;
 }
 
+footer input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fd6f0a3f;
+}
+footer textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fd6f0a3f;
+}
+
 /* Responsive: using Media Query */
 @media screen and (max-width: 992px) {
     header{
@@ -179,7 +192,6 @@ fieldset{
     }
 
     .section-t-b-m {
-        /* margin-top: 80px; */
         margin-bottom: 80px;
     }
     
@@ -192,5 +204,9 @@ fieldset{
         padding: 50px;
     }
 
+    footer{
+        padding: 80px;
+        /* margin: 0; */
+    }
     
 }
