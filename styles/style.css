@@ -1,6 +1,11 @@
+/* Common Css Style */
 body {
     margin: 0;
     padding: 0;
+}
+
+.section-margin {
+    margin: 0 150px;
 }
 
 
@@ -79,9 +84,7 @@ nav ul li a {
 filter: drop-shadow(20px 20px 10px rgba(104, 104, 104, 0.267));
 }
 
-.section-margin {
-    margin: 0 150px;
-}
+
 
 #intro h3 {
     color: #474747;
@@ -158,9 +161,36 @@ fieldset{
 
 /* Responsive: using Media Query */
 @media screen and (max-width: 992px) {
-    .flex{
-        /* display: flex; */
-        flex-direction: column;
-        /* align-items: center; */
+    header{
+        background-position: top left, bottom;
     }
+    .flex{
+        flex-direction: column;
+    }
+
+    .section-margin{
+        margin: 0;
+        padding: 0 50px;
+    }
+
+    .section-t-b-m {
+        margin-top: 130px;
+        margin-bottom: 130px;
+    }
+
+    .section-t-b-m {
+        /* margin-top: 80px; */
+        margin-bottom: 80px;
+    }
+    
+
+    .hero {
+        margin: 0px 70px 0px;
+    }
+
+    .about{
+        padding: 50px;
+    }
+
+    
 }
